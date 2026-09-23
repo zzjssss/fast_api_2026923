@@ -1,0 +1,22 @@
+# Poetry / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.poetry/
+
+# PyCharm IDE
+.idea/
+*.iml
+
+# 环境变量（重点！不要把密钥提交到git）
+.env
+
+# 日志
+logs/
+*.log
+
+# 操作系统缓存
+.DS_Store
+Thumbs.db

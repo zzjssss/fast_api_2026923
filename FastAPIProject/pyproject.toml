@@ -1,0 +1,16 @@
+[project]
+name = "fastapiproject"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yuy zhou",email = "2072707317@qq.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "sqlmodel (>=0.0.42,<0.0.43)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
