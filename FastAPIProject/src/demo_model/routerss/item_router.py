@@ -1,8 +1,8 @@
 from typing import List
 
 from fastapi import APIRouter
-from src.demo_model.DTO.from_item import ItemCreate
-from src.demo_model.service.service_fromitem import service_read_items
+from FastAPIProject.src.demo_model.DTO.from_item import ItemCreate
+from FastAPIProject.src.demo_model.service.service_fromitem import service_read_items
 
 router = APIRouter()
 

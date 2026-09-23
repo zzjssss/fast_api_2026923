@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
-from src.demo_model.routerss import router as routerss_router
+from FastAPIProject.src.demo_model.routerss import router as routerss_router
 import uvicorn
 
 #加入生命周期

@@ -1,4 +1,4 @@
-from src.demo_model.DAO.data_from_items import fake_db
+from FastAPIProject.src.demo_model.DAO.data_from_items import fake_db
 
 
 def service_read_items(skip: int = 0, limit: int = 10):
